@@ -1,45 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link
-      class="favicon"
-      rel="icon"
-      type="image/svg+xml"
-      href="/Project_JS_G03/assets/favicon-white-vuQ0R6MU.svg"
-    />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Project_JS_G03</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap"
-      rel="stylesheet"
-    />
-    <script type="module" crossorigin src="/Project_JS_G03/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/Project_JS_G03/assets/index-pAq494xs.css">
-  </head>
-  <body>
-    <p>header</p>
 
-    
+<head>
+  <meta charset="UTF-8" />
+  <link class="favicon" rel="icon" type="image/svg+xml" href="/Project_JS_G03/assets/favicon-white-vuQ0R6MU.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Project_JS_G03</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet" />
+  <script type="module" crossorigin src="/Project_JS_G03/index.js"></script>
+  <link rel="stylesheet" crossorigin href="/Project_JS_G03/assets/index-FK1uzd9E.css">
+</head>
 
-    <main>
-      <section>
+<body>
+  <!-- <p>header</p> -->
+<section class="header" id="header">
+    <div class="container">
+        <header class="page-header">
+            <div class="menu-wrapper">
+                <a class="header-link__logo" href="">
+                    Lloyd<span class="logo--color-green">Jefferson.</span>
+                </a>
+                <button class="button__menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+                    <svg class="menu__icon">
+                        <use href="../img/mobile_menu.svg#mobile-menu"></use>
+                    </svg>
+                </button>
+            </div>
+            <div class="menu-container js-menu-container" id="mobile-menu">
+                <div class="menu-wrapper">
+                    <label class="switch">
+                        <input type="checkbox" class="switch__input">
+                        <span class="switch__slider"></span>
+                    </label>
+                    <nav class="navigation">
+                        <ul class="navigation__header list">
+                            <li class="navigation__header-item">
+                                <a class="navigation__header-link link" href="../index.html#section-aboutme">About
+                                    me</a>
+                            </li>
+                            <li class="navigation__header-item link">
+                                <a class="navigation__header-link link"
+                                    href="../index.html#section-myprojects">Projects</a>
+                            </li>
+                            <li class="navigation__header-item link">
+                                <a class="navigation__header-link link" href="./">Contacts</a>
+                            </li>
+                        </ul>
+
+                    </nav>
+
+                </div>
+            </div>
+        </header>
+    </div>
+</section>
+  
+
+  <main>
+    <section>
   <p>hero</p>
 </section>
 
-      <section>
+    <section>
   <p>about me</p>
 </section>
 
-      <section id="projects" class="container my-projects">
+    <section id="projects" class="container my-projects">
   <h2 class="project-title">MY <span>PROJECTS</span></h2>
   <ul id="projects-list" class="my-prog-list"></ul>
   <button class="load-more">LOAD MORE</button>
 </section>
 
-      <section class="container">
+
+    <section class="container">
   <div class="container-benefits">
     <h2 class="title-benefits">
       <span class="title-span">Benefits</span> of working with me
@@ -98,20 +133,21 @@
   </div>
 </section>
 
-      <section>
+    <section>
   <p>FAQ</p>
 </section>
 
-      <section><p>reviews</p></section>
+    <section><p>reviews</p></section>
 
-      <section>
+    <section>
   <p>form</p>
 </section>
 
-    </main>
+  </main>
 
-    <p>footer</p>
+  <p>footer</p>
 
 
-  </body>
+</body>
+
 </html>
