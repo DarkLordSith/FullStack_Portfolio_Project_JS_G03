@@ -17,7 +17,9 @@
       rel="stylesheet"
     />
     <script type="module" crossorigin src="/Project_JS_G03/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/Project_JS_G03/assets/index-DWlHJwK3.css">
+    <link rel="modulepreload" crossorigin href="/Project_JS_G03/assets/vendor-DM1_jADJ.js">
+    <link rel="stylesheet" crossorigin href="/Project_JS_G03/assets/vendor-DnveWo0P.css">
+    <link rel="stylesheet" crossorigin href="/Project_JS_G03/assets/index-_dYOnyym.css">
   </head>
 
   <body>
@@ -211,7 +213,29 @@
   <p>FAQ</p>
 </section>
 
-      <section><p>reviews</p></section>
+      <section class="reviews">
+  <div class="container reviews-container">
+    <h2 class="article-reviews">Reviews</h2>
+
+    <div class="reviews-slider">
+      <ul class="reviews-list"></ul>
+
+      <button class="slider-button slider-button-prev">
+        <svg class="icon-button-swipe left-arrow" height="24px" width="24px">
+          <use href="../img/icons.svg#icon-arrow-right"></use>
+        </svg>
+      </button>
+
+      <button class="slider-button slider-button-next">
+        <svg class="icon-button-swipe" height="24px" width="24px">
+          <use href="../img/icons.svg#icon-arrow-right"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- <script src="../js/reviews.js" type="module"></script> -->
+</section>
 
       <section>
   <p>form</p>
