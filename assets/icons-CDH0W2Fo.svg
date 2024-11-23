@@ -31,5 +31,8 @@
       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3333" d="M20 14c0 1.061-.421 2.078-1.172 2.828S17.06 18 16 18c-1.061 0-2.078-.421-2.828-1.172S12 15.06 12 14c0-1.061.421-2.078 1.172-2.828S14.94 10 16 10c1.061 0 2.078.421 2.828 1.172S20 12.94 20 14z"/>
       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3333" d="M26 14c0 9.523-10 15-10 15S6 23.523 6 14c0-2.652 1.054-5.196 2.929-7.071S13.348 4 16 4s5.196 1.054 7.071 2.929S26 11.348 26 14z"/>
     </symbol>
+    <symbol id="icon-diagonal-arrow-up" viewBox="0 0 32 32">
+      <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667" d="M6.333 25.667l19.333-19.333M25.667 6.333h-18M25.667 6.333v18"></path>
+    </symbol>
   </defs>
 </svg>
