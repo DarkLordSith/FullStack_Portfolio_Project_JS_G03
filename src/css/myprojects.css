@@ -97,10 +97,10 @@
   background-color: #e4e5e6;
   font-weight: bold;
   color: #000;
-  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
-.link-visit :hover {
-  background: #bbb;
+.link-visit:hover {
+  background-color: #bbb;
 }
 .text-visit {
   font-weight: 500;
@@ -140,6 +140,9 @@
   fill: none;
   stroke: #00a550;
   stroke-width: 2px;
+}
+.picture img {
+  border-radius: 24px;
 }
 
 @media screen and (min-width: 768px) {
@@ -201,5 +204,10 @@
     display: block;
     width: 100%;
     max-width: 100%;
+  }
+  .picture img {
+    display: block;
+    width: 100%;
+    height: auto;
   }
 }

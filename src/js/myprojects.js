@@ -2,9 +2,9 @@
 const projects = [
     {
         images: {
-            "360": { "1x": "./img/myproject/Financ-mob.1x.jpg", "2x": "./img/myproject/Financ-mob.2x.jpg" },
-            "767": { "1x": "./img/myproject/Financ-tab.1x.jpg", "2x": "./img/myproject/Financ-tab.2x.jpg" },
-            "1280": { "1x": "./img/myproject/Wallet-desc.1x.jpg", "2x": "./img/myproject/Wallet-desc.2x.jpg" }
+            "360": { "1x": "/img/myproject/Financ-mob.1x.jpg", "2x": "/img/myproject/Financ-mob.2x.jpg" },
+            "767": { "1x": "/img/myproject/Financ-tab.1x.jpg", "2x": "/img/myproject/Financ-tab.2x.jpg" },
+            "1280": { "1x": "/img/myproject/Wallet-desc.1x.jpg", "2x": "/img/myproject/Wallet-desc.2x.jpg" }
         },
         stack: "React, JavaScript, Node JS, Git",
         title: "WALLET WEBSERVICE",
@@ -12,9 +12,9 @@ const projects = [
     },
     {
         images: {
-            "360": { "1x": "./img/myproject/Diet-mob.1x.jpg", "2x": "./img/myproject/Diet-mob.2x.jpg" },
-            "767": { "1x": "./img/myproject/Diet-tab.1x.jpg", "2x": "./img/myproject/Diet-tab.2x.jpg" },
-            "1280": { "1x": "./img/myproject/Diet-desc.1x.jpg", "2x": "./img/myproject/Diet-desc.2x.jpg" }
+            "360": { "1x": "/img/myproject/Diet-mob.1x.jpg", "2x": "/img/myproject/Diet-mob.2x.jpg" },
+            "767": { "1x": "./img/myproject/Diet-tab.1x.jpg", "2x": "/img/myproject/Diet-tab.2x.jpg" },
+            "1280": { "1x": "/img/myproject/Diet-desc.1x.jpg", "2x": "/img/myproject/Diet-desc.2x.jpg" }
         },
         stack: "React, JavaScript, Node JS, Git",
         title: "GREEN HARVEST WEBSERVICE",
@@ -22,9 +22,9 @@ const projects = [
     },
     {
                  images: {
-            "360": { "1x": "./img/myproject/Learn-mob.1x.jpg", "2x": "./img/myproject/Learn-mob.2x.jpg" },
-            "767": { "1x": "./img/myproject/Learn-tab.1x.jpg", "2x": "./img/myproject/Learn-tab.2x.jpg" },
-            "1280": { "1x": "./img/myproject/Learn-desc.1x.jpg", "2x": "./img/myproject/Learn-desc.2x.jpg" }
+            "360": { "1x": "/img/myproject/Learn-mob.1x.jpg", "2x": "/img/myproject/Learn-mob.2x.jpg" },
+            "767": { "1x": "/img/myproject/Learn-tab.1x.jpg", "2x": "/img/myproject/Learn-tab.2x.jpg" },
+            "1280": { "1x": "/img/myproject/Learn-desc.1x.jpg", "2x": "/img/myproject/Learn-desc.2x.jpg" }
         },
                 stack: "React, JavaScript, Node JS, Git",
                 title: "ENGLISH EXCELLENCE WEBSERVICE",
@@ -32,9 +32,9 @@ const projects = [
     },
     {
                 images: {
-            "360": { "1x": "./img/myproject/Chego-mob.1x.jpg", "2x": "./img/myproject/Chego-mob.2x.jpg" },
-            "767": { "1x": "./img/myproject/Chego-tab.1x.jpg", "2x": "./img/myproject/Chego-tab.2x.jpg" },
-            "1280": { "1x": "./img/myproject/Chego-desc.1x.jpg", "2x": "./img/myproject/Chego-desc.2x.jpg" }
+            "360": { "1x": "/img/myproject/Chego-mob.1x.jpg", "2x": "/img/myproject/Chego-mob.2x.jpg" },
+            "767": { "1x": "/img/myproject/Chego-tab.1x.jpg", "2x": "/img/myproject/Chego-tab.2x.jpg" },
+            "1280": { "1x": "/img/myproject/Chego-desc.1x.jpg", "2x": "/img/myproject/Chego-desc.2x.jpg" }
         },
                 stack: "React, JavaScript, Node JS, Git",
                 title: "CHEGO JEWELRY WEBSITE",
@@ -42,9 +42,9 @@ const projects = [
     },
     {
                images: {
-            "360": { "1x": "./img/myproject/Mimino-mob.1x.jpg", "2x": "./img/myproject/Mimino-mob.2x.jpg" },
-            "767": { "1x": "./img/myproject/Mimino-tab.1x.jpg", "2x": "./img/myproject/Mimino-tab.2x.jpg" },
-            "1280": { "1x": "./img/myproject/Mimino-desc.1x.jpg", "2x": "./img/myproject/Mimino-desc.2x.jpg" }
+            "360": { "1x": "/img/myproject/Mimino-mob.1x.jpg", "2x": "/img/myproject/Mimino-mob.2x.jpg" },
+            "767": { "1x": "/img/myproject/Mimino-tab.1x.jpg", "2x": "/img/myproject/Mimino-tab.2x.jpg" },
+            "1280": { "1x": "/img/myproject/Mimino-desc.1x.jpg", "2x": "/img/myproject/Mimino-desc.2x.jpg" }
         },
                 stack: "React, JavaScript, Node JS, Git",
                 title: "MIMINO WEBSITE",
@@ -52,9 +52,9 @@ const projects = [
     },
     {
         images: {
-            "360": { "1x": "./img/myproject/vyshyvanka-mob.1x.jpg", "2x": "./img/myproject/vyshyvanka-mob.2x.jpg" },
-            "767": { "1x": "./img/myproject/vyshyvanka-tab.1x.jpg", "2x": "./img/myproject/vyshyvanka-tab.2x.jpg" },
-            "1280": { "1x": "./img/myproject/vyshyvanka-desc.1x.jpg", "2x": "./img/myproject/vyshyvanka-desc.2x.jpg" }
+            "360": { "1x": "/img/myproject/vyshyvanka-mob.1x.jpg", "2x": "/img/myproject/vyshyvanka-mob.2x.jpg" },
+            "767": { "1x": "/img/myproject/vyshyvanka-tab.1x.jpg", "2x": "/img/myproject/vyshyvanka-tab.2x.jpg" },
+            "1280": { "1x": "/img/myproject/vyshyvanka-desc.1x.jpg", "2x": "/img/myproject/vyshyvanka-desc.2x.jpg" }
         },
                 stack: "React, JavaScript, Node JS, Git",
                 title: "VYSHYVANKA VIBES LANDING PAGE",
@@ -62,9 +62,9 @@ const projects = [
     },
     {
         images: {
-            "360": { "1x": "./img/myproject/Energy-mob.1x.jpg", "2x": "./img/myproject/Energy-mob.2x.jpg" },
-            "767": { "1x": "./img/myproject/Energy-tab.1x.jpg", "2x": "./img/myproject/Energy-tab.2x.jpg" },
-            "1280": { "1x": "./img/myproject/Energy-desc.1x.jpg", "2x": "./img/myproject/Energy-desc.2x.jpg" }
+            "360": { "1x": "/img/myproject/Energy-mob.1x.jpg", "2x": "/img/myproject/Energy-mob.2x.jpg" },
+            "767": { "1x": "/img/myproject/Energy-tab.1x.jpg", "2x": "/img/myproject/Energy-tab.2x.jpg" },
+            "1280": { "1x": "/img/myproject/Energy-desc.1x.jpg", "2x": "/img/myproject/Energy-desc.2x.jpg" }
         },
                 stack: "React, JavaScript, Node JS, Git",
                 title: "ENERGY FLOW WEBSERVICE",
@@ -72,9 +72,9 @@ const projects = [
     },
     {
        images: {
-            "360": { "1x": "./img/myproject/Power-mob.1x.jpg", "2x": "./img/myproject/Power-mob.2x.jpg" },
-            "767": { "1x": "./img/myproject/Power-tab.1x.jpg", "2x": "./img/myproject/Power-tab.2x.jpg" },
-            "1280": { "1x": "./img/myproject/Power-desc.1x.jpg", "2x": "./img/myproject/Power-desc.2x.jpg" }
+            "360": { "1x": "/img/myproject/Power-mob.1x.jpg", "2x": "/img/myproject/Power-mob.2x.jpg" },
+            "767": { "1x": "/img/myproject/Power-tab.1x.jpg", "2x": "/img/myproject/Power-tab.2x.jpg" },
+            "1280": { "1x": "/img/myproject/Power-desc.1x.jpg", "2x": "/img/myproject/Power-desc.2x.jpg" }
         },
                 stack: "React, JavaScript, Node JS, Git",
                 title: "POWER PULSE WEBSERVICE",
@@ -82,9 +82,9 @@ const projects = [
     },
     {
         images: {
-            "360": { "1x": "./img/myproject/Fresh-mob.1x.jpg", "2x": "./img/myproject/Fresh-mob.2x.jpg" },
-            "767": { "1x": "./img/myproject/Fresh-tab.1x.jpg", "2x": "./img/myproject/Fresh-tab.2x.jpg" },
-            "1280": { "1x": "./img/myproject/Fresh-desc.1x.jpg", "2x": "./img/myproject/Fresh-desc.2x.jpg" }
+            "360": { "1x": "/img/myproject/Fresh-mob.1x.jpg", "2x": "/img/myproject/Fresh-mob.2x.jpg" },
+            "767": { "1x": "/img/myproject/Fresh-tab.1x.jpg", "2x": "/img/myproject/Fresh-tab.2x.jpg" },
+            "1280": { "1x": "/img/myproject/Fresh-desc.1x.jpg", "2x": "/img/myproject/Fresh-desc.2x.jpg" }
         },
                 stack: "React, JavaScript, Node JS, Git",
                 title: "Fruitbox online store",
@@ -92,9 +92,9 @@ const projects = [
     },
     {
                 images: {
-            "360": { "1x": "./img/myproject/first screen-mob.1x.jpg", "2x": "./img/myproject/first screen-mob.2x.jpg" },
-            "767": { "1x": "./img/myproject/first screen-tab.1x.jpg", "2x": "./img/myproject/first screen-tab.2x.jpg" },
-            "1280": { "1x": "./img/myproject/first screen-desc.1x.jpg", "2x": "./img/myproject/first screen-desc.2x.jpg" }
+            "360": { "1x": "/img/myproject/first screen-mob.1x.jpg", "2x": "/img/myproject/first screen-mob.2x.jpg" },
+            "767": { "1x": "/img/myproject/first screen-tab.1x.jpg", "2x": "/img/myproject/first screen-tab.2x.jpg" },
+            "1280": { "1x": "/img/myproject/first screen-desc.1x.jpg", "2x": "/img/myproject/first screen-desc.2x.jpg" }
         },
                 stack: "React, JavaScript, Node JS, Git",
                 title: "STARLIGHT STUDIO LANDING PAGE",
