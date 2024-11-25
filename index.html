@@ -23,15 +23,17 @@
     <script type="module" crossorigin src="/Project_JS_G03/index.js"></script>
     <link rel="modulepreload" crossorigin href="/Project_JS_G03/assets/vendor-Bwt5MwBX.js">
     <link rel="stylesheet" crossorigin href="/Project_JS_G03/assets/vendor-DLkfUfUw.css">
-    <link rel="stylesheet" crossorigin href="/Project_JS_G03/assets/index-vaBAYECD.css">
+    <link rel="stylesheet" crossorigin href="/Project_JS_G03/assets/index-DBXGgkLA.css">
   </head>
 
   <body>
-    <header class="header" id="header">
-  <div class="page-header">
-    <div class="container">
+    
+<section class="header" id="header">
+  <div class="container">
+    <header class="page-header">
       <div class="menu-wrapper">
-        <a class="header-link__logo" href="#">
+        <a class="header-link__logo" href="">
+
           Lloyd<span class="logo--color-green">Jefferson.</span>
         </a>
         <button
@@ -45,46 +47,73 @@
         </button>
       </div>
       <div class="menu-container js-menu-container" id="mobile-menu">
+
+        <button class="menu-close js-close-menu">
+          <svg class="menu-close__icon">
+            <use href="/Project_JS_G03/assets/mobile_menu-B-edLfmT.svg#icon-close"></use>
+          </svg>
+        </button>
+
         <div class="menu-wrapper">
           <label class="switch">
             <input type="checkbox" class="switch__input" />
             <span class="switch__slider"></span>
           </label>
-          <div class="mobile-header">
-            <button class="button__menu-toggle js-close-menu">
-              <svg class="menu__icon">
-                <use href="/Project_JS_G03/assets/mobile_menu_close-CilriVgF.svg#mobile-menu-close"></use>
-              </svg>
-            </button>
-          </div>
-          <div class="mobile-wrapper">
-            <nav class="navigation">
-              <ul class="navigation__header list">
-                <li class="navigation__header-item">
-                  <a class="navigation__header-link link" href="#aboutme"
-                    >About me</a
-                  >
-                </li>
-                <li class="navigation__header-item link">
-                  <a class="navigation__header-link link" href="#projects"
-                    >Projects</a
-                  >
-                </li>
-                <li class="navigation__header-item link">
-                  <a class="navigation__header-link link" href="#work-together"
-                    >Contacts</a
-                  >
-                </li>
-              </ul>
-            </nav>
-          </div>
+
+          <nav class="navigation">
+            <ul class="navigation__header list">
+              <li class="navigation__header-item">
+                <a class="navigation__header-link link" href="#aboutme"
+                  >About me</a
+                >
+              </li>
+              <li class="navigation__header-item">
+                <a class="navigation__header-link link" href="#projects"
+                  >Projects</a
+                >
+              </li>
+              <li class="navigation__header-item">
+                <a class="navigation__header-link link" href="#work-together"
+                  >Contacts</a
+                >
+              </li>
+            </ul>
+          </nav>
         </div>
       </div>
+    </header>
+  </div>
+</section>
+
+    <div class="mobile-menu" data-menu>
+  <div class="mobile-menu-container container">
+    <div class="logo-container">
+      <a class="mobile-menu-logo" href="#">
+        Lloyd<span class="logo-color-green">Jefferson.</span>
+      </a>
+      <button class="mobile-menu-close js-close-menu" data-menu-close>
+        <svg class="menu-close-icon" width="18" height="18">
+          <use href="../img/icons.svg#icon-close"></use>
+        </svg>
+      </button>
+    </div>
+    <nav class="mobile-menu-nav">
+      <ul class="mobile-menu-list">
+        <li class="mobile-menu-item">
+          <a href="#aboutme" class="mobile-menu-link">About me</a>
+        </li>
+        <li class="mobile-menu-item">
+          <a href="#myprojects" class="mobile-menu-link">Projects</a>
+        </li>
+        <li class="mobile-menu-item">
+          <a href="#work-together" class="mobile-menu-link">Contacts</a>
+        </li>
+      </ul>
+    </nav>
     </div>
   </div>
-</header>
+</div>
 
-    
 
     <main>
       <section class="container section-hero" id="section-hero">
@@ -706,10 +735,35 @@
   <div class="content-container">
     <h1 class="brand-title">LLOYD<span class="last-name">JEFFERSON.</span></h1>
     <ul class="social-links">
-      <li><a href="">Instagram</a></li>
-      <li><a href="">Facebook</a></li>
-      <li><a href="">LinkedIn</a></li>
-      <li><a href="">GitHub</a></li>
+      <li>
+        <a
+          href="https://www.instagram.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Instagram</a
+        >
+      </li>
+      <li>
+        <a
+          href="https://www.facebook.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Facebook</a
+        >
+      </li>
+      <li>
+        <a
+          href="https://www.linkedin.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >LinkedIn</a
+        >
+      </li>
+      <li>
+        <a href="https://github.com/" target="_blank" rel="noopener noreferrer"
+          >GitHub</a
+        >
+      </li>
     </ul>
   </div>
   <div class="footer-text">
