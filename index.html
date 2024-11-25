@@ -23,72 +23,51 @@
     <script type="module" crossorigin src="/Project_JS_G03/index.js"></script>
     <link rel="modulepreload" crossorigin href="/Project_JS_G03/assets/vendor-Bwt5MwBX.js">
     <link rel="stylesheet" crossorigin href="/Project_JS_G03/assets/vendor-DLkfUfUw.css">
-    <link rel="stylesheet" crossorigin href="/Project_JS_G03/assets/index-Des5fSUY.css">
+    <link rel="stylesheet" crossorigin href="/Project_JS_G03/assets/index-dqYVtfvJ.css">
   </head>
 
   <body>
-    
-<section class="header" id="header">
+    <header class="header">
   <div class="container">
-    <header class="page-header">
-      <div class="menu-wrapper">
-        <a class="header-link__logo" href="">
+    <h1 class="header-logo">
+      lloyd<span class="logo--color-green">jefferson.</span>
+    </h1>
+    <div class="nav-container">
+      <label class="switch">
+        <input type="checkbox" class="switch__input" />
+        <span class="switch__slider"></span>
+      </label>
 
-          Lloyd<span class="logo--color-green">Jefferson.</span>
-        </a>
-        <button
-          class="button__menu-toggle js-open-menu"
-          aria-expanded="false"
-          aria-controls="mobile-menu"
-        >
-          <svg class="menu__icon">
-            <use href="/Project_JS_G03/assets/mobile_menu-B-edLfmT.svg#mobile-menu"></use>
-          </svg>
-        </button>
-      </div>
-      <div class="menu-container js-menu-container" id="mobile-menu">
-
-        <button class="menu-close js-close-menu">
-          <svg class="menu-close__icon">
-            <use href="/Project_JS_G03/assets/mobile_menu-B-edLfmT.svg#icon-close"></use>
-          </svg>
-        </button>
-
-        <div class="menu-wrapper">
-          <label class="switch">
-            <input type="checkbox" class="switch__input" />
-            <span class="switch__slider"></span>
-          </label>
-
-          <nav class="navigation">
-            <ul class="navigation__header list">
-              <li class="navigation__header-item">
-                <a class="navigation__header-link link" href="#aboutme"
-                  >About me</a
-                >
-              </li>
-              <li class="navigation__header-item">
-                <a class="navigation__header-link link" href="#projects"
-                  >Projects</a
-                >
-              </li>
-              <li class="navigation__header-item">
-                <a class="navigation__header-link link" href="#work-together"
-                  >Contacts</a
-                >
-              </li>
-            </ul>
-          </nav>
-        </div>
-      </div>
-    </header>
+      <ul class="nav-list">
+        <li class="nav-list-item">
+          <a class="nav-link" href="#aboutme">About me</a>
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-link" href="#work-together">Contacts</a>
+        </li>
+      </ul>
+    </div>
+    <button
+      type="button"
+      class="modal-btn"
+      data-menu-open
+      aria-expanded="false"
+      aria-controls="mobile-menu"
+    >
+      <svg class="modal-svg" width="18" height="18">
+        <use href="/Project_JS_G03/assets/mobile_menu-B-edLfmT.svg#mobile-menu"></use>
+      </svg>
+    </button>
   </div>
-</section>
+</header>
 
     <div class="mobile-menu" data-menu>
   <div class="mobile-menu-container container">
     <div class="logo-container">
-      <a class="mobile-menu-logo" href="#">
+      <a class="mobile-menu-logo" href="../index.html">
         Lloyd<span class="logo-color-green">Jefferson.</span>
       </a>
       <button class="mobile-menu-close js-close-menu" data-menu-close>
@@ -103,7 +82,7 @@
           <a href="#aboutme" class="mobile-menu-link">About me</a>
         </li>
         <li class="mobile-menu-item">
-          <a href="#myprojects" class="mobile-menu-link">Projects</a>
+          <a href="#projects" class="mobile-menu-link">Projects</a>
         </li>
         <li class="mobile-menu-item">
           <a href="#work-together" class="mobile-menu-link">Contacts</a>
