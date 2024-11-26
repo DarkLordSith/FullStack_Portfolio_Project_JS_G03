@@ -139,3 +139,48 @@
   color: #292929;
   text-decoration: none;
 }
+
+/*классы для тем в CSS */
+/* Light Theme */
+.light-theme {
+  --background-color: #ffffff;
+  --text-color: #292929;
+  --slider-background-color: #e4e5e6;
+  --slider-color: #00b068;
+}
+
+/* Dark Theme */
+.dark-theme {
+  --background-color: #292929;
+  --text-color: #ffffff;
+  --slider-background-color: #292929;
+  --slider-color: #00b068;
+}
+
+/* Apply theme variables */
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.switch__slider {
+  background-color: var(--slider-background-color);
+}
+
+.switch__slider::before {
+  background-color: var(--slider-color);
+}
+
+/*Изменим CSS стили так, чтобы использовать CSS переменные*/
+
+.header-link__logo {
+  color: var(--text-color);
+}
+
+.switch__slider {
+  background-color: var(--slider-background-color);
+}
+
+.switch__slider::before {
+  background-color: var(--slider-color);
+}
