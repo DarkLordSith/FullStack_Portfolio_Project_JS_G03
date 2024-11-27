@@ -23,7 +23,7 @@
     <script type="module" crossorigin src="/Project_JS_G03/index.js"></script>
     <link rel="modulepreload" crossorigin href="/Project_JS_G03/assets/vendor-Bwt5MwBX.js">
     <link rel="stylesheet" crossorigin href="/Project_JS_G03/assets/vendor-DLkfUfUw.css">
-    <link rel="stylesheet" crossorigin href="/Project_JS_G03/assets/index-Di9HWzLr.css">
+    <link rel="stylesheet" crossorigin href="/Project_JS_G03/assets/index-hUtm4Fhl.css">
   </head>
 
   <body>
@@ -103,10 +103,33 @@
           <span class="highlight-green1">Fullstack developer</span>
         </h1>
 
-        <a href="#work-together" class="hero-button-link">Order the project</a>
+        <a
+          href="#work-together"
+          class="hero-button-link"
+          role="button"
+          aria-label="Order the project"
+          >Order the project</a
+        >
       </div>
 
       <picture class="hero-img">
+        <!-- Webp формати зображення -->
+        <source
+          srcset="/Project_JS_G03/assets/herodesk-1x-CrYIoLu9.webp 1x, /Project_JS_G03/assets/herodesk-2x-xSZmcixM.webp 2x"
+          type="image/webp"
+          media="(min-width:1280px)"
+        />
+        <source
+          srcset="/Project_JS_G03/assets/herotabl-1x-CeHQ3gWh.webp 1x, /Project_JS_G03/assets/herotabl-2x-92pTVL0S.webp 2x"
+          type="image/webp"
+          media="(min-width:768px)"
+        />
+        <source
+          srcset="/Project_JS_G03/assets/heromob-1x-NkRRMo39.webp 1x, /Project_JS_G03/assets/heromob-2x-P3JxUl9c.webp 2x"
+          type="image/webp"
+          media="(max-width:767px)"
+        />
+        <!-- PNG формати зображення -->
         <source
           srcset="/Project_JS_G03/assets/herodesk-1x-D1uZv7aa.png 1x, /Project_JS_G03/assets/herodesk-2x-C8CKWptN.png 2x"
           media="(min-width:1280px)"
@@ -119,12 +142,14 @@
           srcset="/Project_JS_G03/assets/heromob-1x-BqjWCVKb.png 1x, /Project_JS_G03/assets/heromob-2x-xrR4bZ8a.png 2x"
           media="(max-width:767px)"
         />
+        <!-- Зображення за замовчуванням (PNG) -->
         <img
           class="hero-dev-img"
           src="/Project_JS_G03/assets/herodesk-1x-D1uZv7aa.png"
           width="488"
           height="788"
-          alt="Developer photo"
+          alt="Photo of a fullstack developer with a laptop in his hands"
+          loading="lazy"
         />
       </picture>
     </div>
