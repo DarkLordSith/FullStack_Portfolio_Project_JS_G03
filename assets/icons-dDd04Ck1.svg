@@ -1,5 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
   <defs>
+<symbol id="mobile-menu-close" viewBox="0 0 32 32" fill="none">
+<path id="Vector" d="M24 8L8 24" stroke="#292929" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M8 8L24 24" stroke="#292929" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</symbol>
+<symbol id="mobile-menu" viewBox="0 0 32 32" fill="none">
+<path id="Vector" d="M5.33398 23.027V21.6936H26.6673V23.027H5.33398ZM5.33398 16.667V15.3336H26.6673V16.667H5.33398ZM5.33398 10.307V8.97363H26.6673V10.307H5.33398Z" fill="#292929"/>
+</symbol>
     <symbol id="icon-drop" viewBox="0 0 32 32">
       <path stroke-linecap="round" stroke-width="2.6667" d="m24 12-8 8-8-8"/>
     </symbol>
