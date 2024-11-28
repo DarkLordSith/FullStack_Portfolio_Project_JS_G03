@@ -29,7 +29,12 @@
     </a>
     <div class="nav-container">
       <label class="switch">
-        <input type="checkbox" id="theme-toggle" class="switch__input" />
+        <input
+          type="checkbox"
+          id="theme-toggle"
+          class="switch__input"
+          aria-label="Switch theme"
+        />
         <span class="switch__slider"></span>
       </label>
       <ul class="nav-list">
@@ -598,13 +603,21 @@
     <div class="reviews-slider">
       <ul class="reviews-list"></ul>
 
-      <button class="slider-button slider-button-prev" type="button">
+      <button
+        class="slider-button slider-button-prev"
+        type="button"
+        aria-label="Previous comment"
+      >
         <svg class="icon-button-swipe left-arrow" height="24px" width="24px">
           <use href="/Project_JS_G03/assets/icons-dDd04Ck1.svg#icon-arrow-right"></use>
         </svg>
       </button>
 
-      <button class="slider-button slider-button-next" type="button">
+      <button
+        class="slider-button slider-button-next"
+        type="button"
+        aria-label="Next comment"
+      >
         <svg class="icon-button-swipe" height="24px" width="24px">
           <use href="/Project_JS_G03/assets/icons-dDd04Ck1.svg#icon-arrow-right"></use>
         </svg>
@@ -714,7 +727,9 @@
                 Invalid message, please write try again
               </p>
             </div>
-            <button type="submit" class="form-btn">SEND MESSAGE</button>
+            <button type="submit" class="form-btn" aria-label="Send message">
+              SEND MESSAGE
+            </button>
           </form>
         </div>
       </div>
