@@ -146,7 +146,7 @@
   position: absolute;
   top: 50%;
   left: 62%;
-  width: 261px;
+  width: 240px;
   height: 92px;
   background-color: #bcdfd1;
   border-radius: 8px;
@@ -292,7 +292,8 @@
   }
 
   .hero-button-bg {
-    height: 92px;
+    width: 261px;
+    height: 96px;
   }
 
   .hero-img {
