@@ -115,35 +115,66 @@
 }
 
 .hero-button-link {
+  position: relative;
+  display: inline-flex;
   align-items: center;
-  display: block;
-  background-color: #bcdfd1;
-  border: none;
-  border-radius: 16px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  transition: all 0.6s ease;
+}
+
+.hero-button-arrow {
+  padding-right: 10px;
+  padding-bottom: 5px;
+  font-size: 25px;
+  transition: all 0.6s ease;
+  color: #009156;
+}
+
+.hero-button-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.6;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #292929;
   transition: all 0.6s ease;
-  text-align: center;
-  text-decoration: none;
-  font-family: 'Poppins', sans-serif;
-  border-radius: 8px;
-  transition: all 0.6s ease;
+}
+
+.hero-button-bg {
   position: absolute;
-  left: 15%;
-  top: 90%;
+  top: 50%;
+  left: 62%;
+  width: 261px;
+  height: 96px;
+  background-color: #bcdfd1;
+  border-radius: 8px;
+  z-index: -1; /* Позиционируем фоновую кнопку позади текста */
   transform: translateY(-50%);
-  width: 240px;
-  height: 100px;
-  padding: 37px 24px;
+  transition: all 0.6s ease;
+}
+
+.hero-button-link:hover .hero-button-bg {
+  background-color: #00b068;
+  box-shadow: 0 0 1.6rem #009156;
+}
+
+.hero-button-link:hover .hero-button-arrow,
+.hero-button-link:hover .hero-button-text {
+  color: white; /* Цвет текста и стрелки при наведении */
 }
 
 .hero-button-link:hover {
-  background-color: #00b068;
-  box-shadow: 0 0 1.6rem #009156;
+  justify-content: center;
+}
+
+.hero-button-link:hover .hero-button-bg {
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero-button-link:hover .hero-button-arrow {
+  margin-right: 0;
 }
 
 .hero-img {
