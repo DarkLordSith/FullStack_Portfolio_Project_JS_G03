@@ -157,10 +157,10 @@
   background-color: var(--color-button-dark);
 }
 
-
 .hero-button-link:hover .hero-button-bg {
   background-color: #00b068;
-  
+}
+
 .hero-button-link:hover {
   background-color: var(--color-accent);
   box-shadow: 0 0 1.6rem #009156;
@@ -171,7 +171,7 @@
 
 .hero-button-link:hover .hero-button-arrow,
 .hero-button-link:hover .hero-button-text {
-  color: white; /* Цвет текста и стрелки при наведении */
+  color: white;
 }
 
 .hero-button-link:hover {
