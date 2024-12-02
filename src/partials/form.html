@@ -69,32 +69,49 @@
                   class="form_input"
                   placeholder="Your email*"
                   required
+                  pattern="^\w+(\.\w+)?@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$"
                 />
                 <svg
                   width="16"
                   height="16"
+                  id="success-icon-input"
                   class="form_icon-input visually-hidden"
                 >
                   <use xlink:href="/img/icons.svg#icon-success-tick"></use>
                 </svg>
               </div>
-              <p class="input_error visually-hidden">
+              <p id="input_error" class="input_error visually-hidden">
                 Invalid email, try again
               </p>
             </div>
             <div class="form_field message_field">
-              <textarea
-                name="usermessage"
-                id="user-message"
-                class="form_message"
-                placeholder="Message"
-              ></textarea>
+              <div class="input_wrapper">
+                <textarea
+                  name="usermessage"
+                  class="form_message"
+                  placeholder="Message"
+                  required
+                ></textarea>
+                <svg
+                  width="16"
+                  height="16"
+                  id="success-icon-message"
+                  class="form_icon-input visually-hidden"
+                >
+                  <use xlink:href="/img/icons.svg#icon-success-tick"></use>
+                </svg>
+              </div>
+              <p id="message_error" class="input_error visually-hidden">
+                Invalid message, please write try again
+              </p>
             </div>
-            <button type="submit" class="form-btn">SEND MESSAGE</button>
+            <button type="submit" class="form-btn" aria-label="Send message">
+              SEND MESSAGE
+            </button>
           </form>
         </div>
       </div>
-      <div class="backdrop">
+      <div id="myModal" class="backdrop">
         <div class="work-together_modal modal">
           <button type="button" class="modal_close-btn">
             <svg width="24" height="24" class="modal_close-icons icons">
@@ -102,13 +119,8 @@
             </svg>
           </button>
           <div class="modal_info">
-            <h6 class="modal_title">
-              Thank you for your interest in cooperation!
-            </h6>
-            <p class="modal_text">
-              The manager will contact you shortly to discuss further details
-              and opportunities for cooperation. Please stay in touch.
-            </p>
+            <h6 class="modal_title"></h6>
+            <p class="modal_text"></p>
           </div>
         </div>
       </div>

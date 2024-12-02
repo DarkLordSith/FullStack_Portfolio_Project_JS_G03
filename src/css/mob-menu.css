@@ -9,13 +9,17 @@ body.no-scroll {
   left: 0;
   width: 100%;
   height: 110vh;
-  background: #f0f0f0 url('../img/bg_mobile_menu.png') no-repeat center 75%;
+  background: var(--color-bg-light) url('../img/bg_mobile_menu.png') no-repeat
+    center 75%;
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
   overflow: auto;
+}
+.dark-mode .mobile-menu {
+  background-color: var(--color-bg-dark);
 }
 
 @media screen and (min-width: 768px) {
@@ -59,14 +63,20 @@ body.no-scroll {
   font-size: 24px;
   font-weight: 400;
   letter-spacing: 1.5px;
-  color: #292929;
+  color: var(--color-primary);
   text-decoration: none;
   text-transform: uppercase;
   padding-top: 20px;
   padding-bottom: 20px;
 }
+.dark-mode .mobile-menu-logo {
+  color: var(--color-text-dark);
+}
 .logo-color-green {
-  color: #00b068;
+  color: var(--color-accent);
+}
+.dark-mode .logo-color-green {
+  color: var(--color-accent-dark);
 }
 
 .mobile-menu-close {
@@ -76,7 +86,10 @@ body.no-scroll {
   margin-left: auto;
   border: none;
   background: none;
-  stroke: #292929;
+  stroke: var(--color-primary);
+}
+.dark-mode .mobile-menu-close {
+  stroke: var(--color-text-dark);
 }
 
 .menu-close-icon {
@@ -106,14 +119,21 @@ body.no-scroll {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.03em;
-  color: #292929;
+  color: var(--color-primary);
   display: block;
   text-align: center;
   padding: 20px 10px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.dark-mode .mobile-menu-link {
+  color: var(--color-text-dark);
+}
 
 .mobile-menu-link:hover,
 .mobile-menu-link:focus {
-  color: #00b068;
+  color: var(--color-accent);
+}
+.dark-mode .mobile-menu-link:hover,
+.dark-mode .mobile-menu-link:focus {
+  color: var(--color-accent-dark);
 }

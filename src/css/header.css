@@ -16,19 +16,9 @@ html {
   font-family: 'Impact', sans-serif;
   font-weight: 400;
   font-size: 24px;
-  font-size: 1.5rem;
   line-height: 1;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-}
-
-.header-logo_sp {
-  font-family: 'Impact', sans-serif;
-  font-size: 1.5rem;
-  line-height: 1;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--accent-green);
 }
 
 .modal-btn {
@@ -61,7 +51,6 @@ html {
   height: 32px;
   width: 32px;
   fill: transparent;
-  stroke: var(--black);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -69,7 +58,6 @@ html {
   opacity: 1;
   height: 32px;
   width: 32px;
-  fill: var(--black);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -119,6 +107,9 @@ html {
 }
 .logo--color-green {
   color: #00b068;
+}
+.dark-mode .logo--color-green {
+  color: var(--color-accent-dark);
 }
 .switch input {
   opacity: 1;

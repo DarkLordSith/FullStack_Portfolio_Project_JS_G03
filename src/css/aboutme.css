@@ -1,74 +1,60 @@
 .section-title {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: var(--font-heading);
   font-weight: 400;
-  font-size: 52px;
-  line-height: 1.23;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   text-align: left;
-  color: #292929;
+  color: var(--color-primary);
   margin-bottom: 40px;
 }
 
 .title-accent {
-  color: #00b068;
+  color: var(--color-accent);
 }
 
 .about-me-img {
   border-radius: 16px;
   width: 320px;
   height: 374px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: var(--box-shadow);
+  aspect-ratio: 16 / 9;
   margin-bottom: 40px;
 }
 
 .about-title {
-  font-family: 'Poppins', sans-serif;
-
   font-weight: 500;
   font-size: 32px;
   line-height: 1.25;
   letter-spacing: 0.02em;
   text-transform: uppercase;
-  color: #292929;
+  color: var(--color-primary);
   margin-bottom: 32px;
 }
 
 .about-me-text {
-  font-family: 'Poppins', sans-serif;
-
   font-weight: 300;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.03em;
-  color: #292929;
+  color: var(--color-primary);
 
   &:not(:last-child) {
     margin-bottom: 24px;
   }
+}
+.dark-mode .about-me-text {
+  color: var(--color-text-dark);
 }
 
 .bio {
   margin-bottom: 40px;
 }
 
-.description-list {
-  list-style-type: disc;
-}
-
 .description-list-item::marker {
-  color: #00b068;
+  color: var(--color-accent);
 }
 
 .description-list-item {
-  font-family: 'Poppins', sans-serif;
-
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.03em;
-  color: #292929;
+  font-family: var(--font-main);
+  color: var(--color-primary);
   padding-right: 10px;
+  list-style-type: disc;
 
   &:not(:last-child) {
     margin-bottom: 12px;
@@ -85,13 +71,6 @@
     background-repeat: no-repeat;
     background-position: left 400px top 844px;
     background-size: 336px 264px;
-  }
-
-  .section-title {
-    font-size: 108px;
-    line-height: 1.15;
-    letter-spacing: 0.02em;
-    margin-bottom: 40px;
   }
 
   .about-wrapper {

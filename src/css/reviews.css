@@ -11,7 +11,6 @@
   line-height: 1.23077;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #292929;
   margin-bottom: 40px;
 }
 
@@ -44,31 +43,50 @@
   align-items: center;
   justify-content: center;
   fill: none;
-  border: 1px solid #e4e5e6;
+  border: 1px solid var(--color-light-grey);
   cursor: pointer;
   border-radius: 8px;
   width: 40px;
   height: 40px;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: var(--color-bg-light);
+}
+.dark-mode .slider-button {
+  border: 1px solid var(--color-text-dark);
+  background-color: var(--color-bg-dark);
 }
 
 .slider-button.disabled {
-  border: 1px solid #e4e5e6;
+  border: 1px solid var(--color-light-grey);
+  stroke: var(--color-light-grey);
   cursor: not-allowed;
+}
+.dark-mode .slider-button.disabled {
+  border-color: var(--color-charcoal-dark);
 }
 
 .slider-button:not(.disabled):hover {
-  background-color: #e4e5e6;
+  background-color: var(--color-light-grey);
   border-color: #292929;
+}
+.dark-mode .slider-button:not(.disabled):hover {
+  background-color: var(--color-charcoal-dark);
 }
 
 .icon-button-swipe {
   fill: none;
-  stroke: #292929;
+  stroke: var(--color-primary);
+}
+.dark-mode .icon-button-swipe {
+  fill: none;
+  stroke: var(--color-text-dark);
 }
 
 .icon-disabled {
   stroke: #e4e5e6;
+}
+.dark-mode .icon-disabled {
+  stroke: var(--color-charcoal-dark);
 }
 
 .left-arrow {
@@ -85,10 +103,13 @@
   gap: 24px;
   height: 296px;
   align-items: flex-start;
-  background-color: #e4e5e6;
+  background-color: var(--color-light-grey);
   border-radius: 16px;
   padding: 34px;
   transition: all 0.3s ease;
+}
+.dark-mode .review-item {
+  background-color: var(--color-charcoal-dark);
 }
 
 .author-feedback {
@@ -100,7 +121,10 @@
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.03em;
-  color: #292929;
+  color: var(--color-primary);
+}
+.dark-mode .author-feedback {
+  color: var(--color-text-dark);
 }
 
 .review-avatar {
@@ -121,7 +145,7 @@
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.03em;
-  color: #292929;
+  /* color: #292929; */
 }
 
 /* - - mediaCalls - - */

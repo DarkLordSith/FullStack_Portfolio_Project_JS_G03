@@ -1,14 +1,17 @@
 .marquee-span {
-  color: #00b068;
+  color: var(--color-accent);
 }
 
 .marquee-2-span {
-  color: black;
+  color: var(--color-primary);
+}
+
+.dark-mode .marquee-2-span {
+  color: var(--color-text-dark);
 }
 
 .marquee {
   overflow: hidden;
-  font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 32px;
   line-height: 1.25;
@@ -17,14 +20,22 @@
 }
 
 .marquee-1 {
-  background-color: #bcdfd1;
-  color: #292929;
+  background-color: var(--color-bg-accent);
+  color: var(--color-primary);
+}
+.dark-mode .marquee-1 {
+  background-color: var(--color-bg-accent-dark);
+  color: var(--color-text-dark);
 }
 
 .marquee-2 {
-  background-color: #e4e5e6;
-  color: #00b068;
+  background-color: var(--color-light-grey);
+  color: var(--color-accent);
   transform: rotate(2deg);
+}
+.dark-mode .marquee-2 {
+  background-color: var(--color-charcoal-dark);
+  color: var(--color-accent-dark);
 }
 
 .marquee__inner {
